@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 namespace quizzer_backend.Models
 {
-    public class SimpleUser : BaseEntity
+    public class TestTable1 : BaseEntity
     {
         [Key]
         public long Id { get; set; }
