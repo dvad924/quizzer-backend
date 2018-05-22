@@ -21,7 +21,7 @@ namespace quizzer_backend.Repository
             get
             {
                 Console.Write(connectionString);
-                return new NpgsqlConnection("");
+                return new NpgsqlConnection("User ID=samwise;Password=Iaintdroppingnoeavessir;Server=138.68.55.142;Database=quizzy;Pooling=true;");
             }
         }
         public void Add(TestTable1 item)
